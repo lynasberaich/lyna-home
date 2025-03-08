@@ -1,26 +1,16 @@
-.imagecarousel {
-  position: relative;
-  height: 233px;
-  margin-bottom: 30px;
-  display: flex;
-  width: fit-content;
-  gap: 20px;
+body {
+    background-color: #f0f0f0;
 }
 
-.imagecarousel img {
-  margin: 0px 0px;
-  box-shadow: 2px 2px 8px #8a8a8a;
+.about-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.imagecarousel {
-  animation: bannermove 50s linear infinite;
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.about-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
