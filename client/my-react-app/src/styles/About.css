@@ -1,16 +1,32 @@
-body {
-    background-color: #f0f0f0;
-}
-
 .about-container {
-    background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f4ebe6;
+}
+
+.about-title {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about-content p {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .about-image {
-    width: 200px;
+    width: 300px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
 }

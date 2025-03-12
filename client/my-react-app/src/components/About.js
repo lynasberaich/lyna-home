@@ -4,7 +4,7 @@ import '../styles/About.css';
 const About = () => {
   return (
     <div className="about-container">
-        <h1>About Me</h1>
+        <h1 className="about-title">About Me</h1>
         <div className="about-content">
           <p>
               I am a computer science student at the University of Maryland, Baltimore
